@@ -1,0 +1,1 @@
+﻿insert into CRMOnline.dbo.user_access(user_id, user_pass) values('root','abc123')

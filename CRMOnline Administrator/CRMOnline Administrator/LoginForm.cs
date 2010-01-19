@@ -19,7 +19,8 @@ namespace CRMOnline_Administrator
         private void btnLogin_Click(object sender, EventArgs e)
         {
             SecurityWebReference.Security foo = new CRMOnline_Administrator.SecurityWebReference.Security();
-            MessageBox.Show(foo.Login("test", "test_pass"));
+            string result = foo.Login(user_id.Text, user_pass.Text);
+            MessageBox.Show(result);
         }
     }
 }
