@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="Security.asmx.cs" Class="CRMOnline_Server.Service1" %>
+﻿<%@ WebService Language="C#" CodeBehind="Security.asmx.cs" Class="CRMOnline_Server.Security" %>
